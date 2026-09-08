@@ -7,8 +7,8 @@ for(let i =0 ; i<a.length; i++){
        found =true;
        break; }}
   if(!found){
-    result.push(a[i])}}
-    
-  return result;
-  
-}
+    result.push(a[i])}}  
+  return result; }
+/*another solution using filter
+function arrayDiff(a, b) {
+  return a.filter(index=> !b.includes(index));}*/
